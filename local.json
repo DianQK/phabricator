@@ -1,0 +1,8 @@
+{
+      "storage.default-namespace": "phabricator",
+      "mysql.host": "mysql",
+      "mysql.port": "3306",
+      "mysql.user": "root",
+      "mysql.pass": "dianqk",
+      "pygments.enabled": true
+}

@@ -1,0 +1,18 @@
+#
+# Optional Volumes:
+#  - /opt/phabricator/conf - configuration
+#  - /var/repo - code repos
+#
+#
+phabricator:
+    build: .
+    links:
+    - mysql
+    ports:
+    - "8081:80"
+mysql:
+    image: mysql
+    environment:
+    - MYSQL_ROOT_PASSWORD=dianqk
+    expose:
+    - "3306"
